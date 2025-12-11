@@ -1,36 +1,84 @@
-📄✂️ Stone Paper Scissors
+📄 ✂️ Stone Paper Scissors – Simple Web Game
 
-A simple and fun Stone–Paper–Scissors game made with HTML, CSS, and JavaScript.
-Click an icon → Computer picks randomly → Result appears in a popup.
+A lightweight and fun Stone–Paper–Scissors game built using HTML, CSS, and JavaScript.
+The user selects one of three options (stone, paper, or scissor), and the computer randomly chooses its move. The final result is displayed using an alert popup.
 
-🎮 How to Play
+🎮 Demo
 
-Open game.html in your browser.
+The game interface features three clickable images representing:
 
-Click Stone, Paper, or Scissor.
+Stone
 
-See if you Win, Lose, or Tie.
+Paper
 
-📁 Files
-game.html
-1.png   (stone)
-2.png   (paper)
-3.png   (scissor)
+Scissor
 
-⚙️ Features
+Clicking any option triggers the game logic, randomly generating the computer's move and showing the result.
 
-🖱️ Clickable image buttons
+📁 Project Structure
+project-folder/
+│
+├── index.html
+├── 1.png        (image for stone)
+├── 2.png        (image for paper)
+├── 3.png        (image for scissor)
 
-🎲 Random computer move
+🛠️ Technologies Used
 
-📢 Instant result alert
+HTML5 – Structure of the game
 
-💡 Beginner-friendly code
+CSS3 – Basic styling
 
-🚀 Coming Soon
+JavaScript – Game logic and random computer move generation
 
-⭐ Score counter
+🚀 How to Run the Game
 
-🎨 Better UI
+Download or clone this project:
 
-🔊 Sound effects
+git clone <repository-url>
+
+
+Place the image files (1.png, 2.png, 3.png) in the same directory as index.html.
+
+Open index.html in your browser.
+
+Click any icon (stone, paper, or scissor) to start playing!
+
+🧠 Game Logic
+
+The computer generates a random number between 0 and 1 using:
+
+Math.random();
+
+
+Based on this value, the computer selects one of the three moves.
+
+The game compares the player's choice with the computer's choice and shows:
+
+✅ YOU WIN
+
+❌ YOU LOSE
+
+🔁 TIE
+
+📸 Screenshots (Optional)
+
+You may add game screenshots here after running the project.
+
+📌 Future Improvements
+
+Here are some ideas to improve the project:
+
+Replace alerts with an on-screen result display
+
+Add score tracking for user and computer
+
+Add animations and sound effects
+
+Improve responsive layout
+
+Add dark mode
+
+📄 License
+
+This project is free to use and modify. No restrictions.
